@@ -1,0 +1,8 @@
+#!name = 微博tab自定义
+#!desc = 微博自定义底部tab 非会员设置tab皮肤
+
+
+^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+
+hostname = api.weibo.cn, new.vip.weibo.cn
